@@ -4,7 +4,7 @@ var webpack = require("webpack");
 module.exports = {
     entry: {
         app: "./main.js",
-        vendors: ["./vendors.js"]
+        vendors: ["angular", "jquery", "bootstrap"]
     },
     output: {
         path: "assets",
@@ -15,7 +15,6 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.less$/,                       loader: "style!css!less!" },
-            { test: /bootstrap\/dist\/js\//,         loader: "imports?jQuery=jquery" },
             { test: /\.(woff|woff2)?$/,              loader: "url?limit=10000&mimetype=application/font-woff" },
             { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&mimetype=application/octet-stream" },
             { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,    loader: "file" },
@@ -31,18 +30,6 @@ module.exports = {
             name: "vendors",
             filename: "vendors.js",
             minChunks: Infinity
-        }),
-        new webpack.optimize.UglifyJsPlugin({
-            mangle: {
-                except: ['$super', '$', 'exports', 'require', 'imports']
-            },
-            compress: {
-                warnings: false
-            }
         })
-    ],
-    externals: {
-        jQuery: true,
-        angular: true
-    }
+    ]
 };
