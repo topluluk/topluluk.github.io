@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" ng-app>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>topluluk.io</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <script src="./assets/vendors.js"></script>
+    <script src="./assets/bundle.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">topluluk.io</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#information">hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="#">gruplar</a>
+                    </li>
+                    <li>
+                        <a href="#">etkinlikler</a>
+                    </li>
+                    <li>
+                        <a href="#">projeler</a>
+                    </li>
+                    <li>
+                        <a href="#">sponsorlar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="header" ng-include="'./templates/header.html'"></div>    
+
+    <div id="information" ng-include="'./templates/information.html'"></div>
+</body>
+</html>

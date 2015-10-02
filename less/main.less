@@ -1,0 +1,69 @@
+@import "~bootstrap/less/bootstrap.less";
+
+@font-family-open-sans:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-base:        @font-family-open-sans;
+
+html, body {
+    height: 100%;
+    widows: 100%;
+}
+
+.navbar {
+    background: #fefefe;
+
+    .navbar-brand {
+        font-weight: 100;
+    }
+}
+
+#header {
+    height: 100%;
+    width: 100%;
+    padding: 0 25px;
+    background-image: linear-gradient(to top, #DB2F5F, #F5364C);
+
+    .container {
+        height: 100%;
+        width: 100%;
+
+        .text {
+            position: relative;
+            top: 50%;
+            transform: translate(0, -50%);
+
+            font-weight: 100;
+            font-size: 68px;
+            text-align: center;
+            color: #fefefe;
+
+            h1 {
+                font-size: 68px;
+                font-weight: 900;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+#information {
+    padding: 50px;
+
+    h1 {
+        text-align: center;
+        font-weight: 100;
+    }
+
+    hr {
+        width: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: #DB2F5F;
+        border-top-width: 5px;
+    }
+
+    .text {
+        padding-top: 20px;
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
