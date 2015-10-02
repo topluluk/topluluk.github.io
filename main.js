@@ -1,2 +1,2 @@
 // Less files.
-require("./less/main.less");
+require("./app/main.less");
