@@ -1,13 +1,13 @@
 {
     "opensources": [
         {
-            "writer": "arguman",
-            "name": "arguman.org",
+            "user": "arguman",
+            "repo": "arguman.org",
             "description": "Argüman analiz & haritalama platformu http://arguman.org"
         },
         {
-            "writer": "kalaomer",
-            "name": "knot",
+            "user": "kalaomer",
+            "repo": "knot",
             "description": "Modern Array Capsule"
         }
     ]
