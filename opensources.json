@@ -1,0 +1,14 @@
+{
+    "opensources": [
+        {
+            "writer": "arguman",
+            "name": "arguman.org",
+            "description": "Argüman analiz & haritalama platformu http://arguman.org"
+        },
+        {
+            "writer": "kalaomer",
+            "name": "knot",
+            "description": "Modern Array Capsule"
+        }
+    ]
+}
