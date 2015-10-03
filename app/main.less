@@ -5,16 +5,45 @@
 
 html, body {
     height: 100%;
-    widows: 100%;
+    width: 100%;
 }
 
-.navbar {
-    background: #fefefe;
+.section {
+    padding: 50px 0;
 
-    .navbar-brand {
+    h1.header {
+        text-align: center;
         font-weight: 100;
+        font-size: 44px;
+        line-height: 2;
+        position: relative;
+
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        color: #555;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translate(-50%, 0);
+
+            width: 30px;
+            border: 0;
+            border-top: 3px solid #DB2F5F;
+        }
+    }
+
+    .text {
+        padding-top: 20px;
+        font-size: 24px;
+        font-weight: 300;
     }
 }
+
+@import "./navbar/main.less";
 @import "./header/main.less";
 @import "./information/main.less";
+@import "./groups/main.less";
 

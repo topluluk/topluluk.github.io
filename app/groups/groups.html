@@ -1,0 +1,18 @@
+<div class="container" ng-controller="groups.controller as groupsCtrl">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="header">Kardeş Gruplar</h1>
+        </div>
+
+        <div class="col-sm-4 group" ng-repeat="group in groups">
+            <h1>{{group.name}}</h1>
+            <p class="member-count">{{group.memberCount | number}} kişi</p>
+            <p class="languages">
+                <span class="language" ng-repeat="language in group.languages">
+                    {{language}}
+                </span>
+            </p>
+            <p class="link"><a ng-href="{{group.link}}" target="_blank">Katıl</a></p>
+        </div>
+    </div>
+</div>
