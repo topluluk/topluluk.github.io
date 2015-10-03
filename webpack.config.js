@@ -11,7 +11,7 @@ module.exports = {
         publicPath: "assets",
         filename: "bundle.js?[hash]"
     },
-    //devtool: "source-map",
+    devtool: "source-map",
     module: {
         loaders: [
             { test: /\.less$/,                       loader: "style!css!less!" },
@@ -30,6 +30,10 @@ module.exports = {
             name: "vendors",
             filename: "vendors.js",
             minChunks: Infinity
+        }),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
         })
     ]
 };
