@@ -1,0 +1,22 @@
+{
+    "groups": [
+        {
+            "name": "PHP-TR",
+            "link": "https://www.facebook.com/groups/tr.developers/",
+            "languages": ["php"],
+            "memberCount": 10100
+        },
+        {
+            "name": "Python Türkiye",
+            "link": "https://www.facebook.com/groups/PythonTurkiye/",
+            "languages": ["python"],
+            "memberCount": 6000
+        },
+        {
+            "name": "FRONTEND-TR",
+            "link": "https://www.facebook.com/groups/frontend.tr/",
+            "languages": ["html", "css", "js"],
+            "memberCount": 2400
+        }
+    ]
+}
