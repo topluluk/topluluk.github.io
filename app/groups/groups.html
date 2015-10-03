@@ -4,7 +4,7 @@
             <h1 class="header">Kardeş Gruplar</h1>
         </div>
 
-        <div class="col-sm-4 group" ng-repeat="group in groups">
+        <div class="col-sm-4 group" ng-repeat="group in groups | orderBy: '-memberCount' ">
             <h1>{{group.name}}</h1>
             <p class="member-count">+{{group.memberCount | number}} kişi</p>
             <p class="languages">
