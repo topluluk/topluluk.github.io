@@ -14,6 +14,7 @@ module.exports = {
     devtool: "source-map",
     module: {
         loaders: [
+            { test: /\.jsx?/,                        loader: "babel", exclude: /(node_modules|bower_components)/ },
             { test: /\.less$/,                       loader: "style!css!less!" },
             { test: /\.(woff|woff2)?$/,              loader: "url?limit=10000&mimetype=application/font-woff" },
             { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&mimetype=application/octet-stream" },
