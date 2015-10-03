@@ -13,10 +13,28 @@
             "memberCount": 6000
         },
         {
+            "name": "Özgür Yazılım Haberleri",
+            "link": "https://www.facebook.com/ozguryazilimhaberleri",
+            "languages": ["linux","opensource"],
+            "memberCount": 2000
+        },
+        {
             "name": "FRONTEND-TR",
             "link": "https://www.facebook.com/groups/frontend.tr/",
             "languages": ["html", "css", "js"],
             "memberCount": 2400
+        },
+        {
+            "name": "Java-TR.org",
+            "link": "https://www.facebook.com/groups/javatr/",
+            "languages": ["java"],
+            "memberCount": 600
+        },
+        {
+            "name": "Python-TR.org",
+            "link": "https://www.facebook.com/groups/pythontr.org/",
+            "languages": ["python"],
+            "memberCount": 400
         }
     ]
 }
