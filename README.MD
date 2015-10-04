@@ -15,3 +15,4 @@ npm run development
 # kodları yayın için hazırlar
 npm deploy
 ```
+
