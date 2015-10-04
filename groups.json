@@ -4,37 +4,43 @@
             "name": "PHP-TR",
             "link": "https://www.facebook.com/groups/tr.developers/",
             "languages": ["php"],
-            "memberCount": 10100
+            "memberCount": 10100,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, cupiditate."
         },
         {
             "name": "Python Türkiye",
             "link": "https://www.facebook.com/groups/PythonTurkiye/",
             "languages": ["python"],
-            "memberCount": 6000
+            "memberCount": 6000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio sit, et inventore non consequatur!"
         },
         {
             "name": "Özgür Yazılım Haberleri",
             "link": "https://www.facebook.com/ozguryazilimhaberleri",
             "languages": ["linux","opensource"],
-            "memberCount": 2000
+            "memberCount": 2000,
+            "description": "Lorem ipsum dolor sit amet."
         },
         {
             "name": "FRONTEND-TR",
             "link": "https://www.facebook.com/groups/frontend.tr/",
             "languages": ["html", "css", "js"],
-            "memberCount": 2400
+            "memberCount": 2400,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iste facilis doloremque fugit nesciunt possimus, quas voluptate maiores, impedit facere laboriosam iusto animi amet dolorem."
         },
         {
             "name": "Java-TR.org",
             "link": "https://www.facebook.com/groups/javatr/",
             "languages": ["java"],
-            "memberCount": 600
+            "memberCount": 600,
+            "description": "Bir dil düşünün ki ; Dünya üzerinde 9 milyondan fazla geliştiricisi olan, 3 milyardan fazla mobil uygulama için tercih edilmiş, 5 milyardan fazla Akıllı kartın aklı olan, Yazılım sektöründe en çok tercih edilen bir dili düşünün. Sizide bu dilin geliştircisi olmak ve bizimle bu gücü ve bilgiyi paylaşmak için Java-TR.org grubumuza davet ediyoruz."
         },
         {
             "name": "Python-TR.org",
             "link": "https://www.facebook.com/groups/pythontr.org/",
             "languages": ["python"],
-            "memberCount": 400
+            "memberCount": 400,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim alias dolores consectetur eos? Mollitia fugiat sunt error cupiditate odio incidunt!"
         }
     ]
 }

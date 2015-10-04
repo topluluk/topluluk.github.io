@@ -1,0 +1,27 @@
+
+#groups {
+    @extend .section;
+    background: #eee;
+
+    .card {
+        transition: all .6s;
+
+        background: {
+            color: #fefefe;
+        }
+
+        &:hover {
+            @extend .card-inverse;
+            @extend .card-primary;
+
+            .card-link, .member-count > small {
+                color: #fefefe;
+            }
+        }
+    
+        .language {
+            font-weight: 400;
+            margin-right: 5px;
+        }
+    }
+}
