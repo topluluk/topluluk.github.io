@@ -16,9 +16,9 @@ module.exports = {
             { test: /\.(scss|sass)$/,                loader: "style!css!autoprefixer!sass!" },
             { test: /\.jsx?/,                        loader: "babel", exclude: /(node_modules|bower_components)/ },
             { test: /\.less$/,                       loader: "style!css!autoprefixer!less!" },
-            { test: /\.(woff|woff2)?$/,              loader: "url?limit=10000&mimetype=application/font-woff" },
+            { test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,              loader: "url?limit=10000&mimetype=application/font-woff" },
             { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&mimetype=application/octet-stream" },
-            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,    loader: "file" },
+            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,                      loader: "url?limit=10000" },
             { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&mimetype=image/svg+xml" }
         ]
     },

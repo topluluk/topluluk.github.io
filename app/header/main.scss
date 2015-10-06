@@ -1,7 +1,6 @@
 #header {
     height: 100%;
     width: 100%;
-    padding: 0 25px;
     background-image: linear-gradient(to top, #DB2F5F, #F5364C);
 
     .container {
@@ -17,15 +16,20 @@
                 top: 50%;
                 transform: translate(0, -50%);
 
-                font-weight: 100;
-                font-size: 68px;
+                font-weight: bolder;
+                font-size: 4.25em;
                 text-align: center;
                 color: #fefefe;
+                letter-spacing: 1px;
 
-                h1 {
-                    font-size: 68px;
-                    font-weight: 900;
-                    display: inline-block;
+                span {
+                    font-weight: 100;
+                }
+
+                @include media-breakpoint-down(md) {
+                    & {
+                        font-size: 3em;
+                    }
                 }
             }
         }

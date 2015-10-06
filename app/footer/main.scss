@@ -1,5 +1,6 @@
+
 #footer {
-    padding: 50px 0;
+    padding-top: 35px;
 
     h1 {
         font-size: 14px;
@@ -11,19 +12,28 @@
         line-height: 16px;
     }
 
-    .last-words {
-
+    .last-words, .contact {
+        padding-top: 25px;
     }
 
     .contact {
         font-size: 24px;
         font-weight: 100;
+
+        .link-buttons {
+            .btn {
+                transition: all .4s;
+                border-style: dashed;
+            }
+        }
     }
 
     .last-line {
-        padding-top: 20px;
+        padding: {
+            top: 25px;
+            bottom: 50px;
+        }
         color: #999;
         font-weight: 100;
     }
 }
-

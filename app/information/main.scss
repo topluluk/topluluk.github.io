@@ -1,6 +1,18 @@
 #information {
     @extend .section;
 
+    .text {
+        @include media-breakpoint-down(sm) {
+            & {
+                text-align: left !important;
+            }
+        }
+
+        &:first-child {
+            @extend .text-right;
+        }
+    }
+
     .card {
         max-width: 20em;
     }
