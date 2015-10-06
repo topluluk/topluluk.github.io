@@ -1,5 +1,3 @@
-require('font-awesome/scss/font-awesome.scss');
-
 // SCSS files.
 require("./app/main.scss");
 
