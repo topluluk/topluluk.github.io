@@ -24,7 +24,8 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                loader: "style!css!autoprefixer!less!" },
+                loader: "style!css!autoprefixer!less!"
+            },
             {
                 test: /\.(otf|eot|svg|ttf|woff|woff2)(\?.+)?$/,
                 loader: 'url-loader?limit=8192'
