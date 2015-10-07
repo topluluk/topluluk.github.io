@@ -1,4 +1,5 @@
 var webpack = require("webpack");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -7,19 +8,27 @@ module.exports = {
     },
     output: {
         path: "assets",
-        publicPath: "assets",
+        publicPath: "/assets/",
         filename: "bundle.js?[hash]"
     },
     devtool: "source-map",
     module: {
         loaders: [
-            { test: /\.(scss|sass)$/,                loader: "style!css!autoprefixer!sass!" },
-            { test: /\.jsx?/,                        loader: "babel", exclude: /(node_modules|bower_components)/ },
-            { test: /\.less$/,                       loader: "style!css!autoprefixer!less!" },
-            { test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,              loader: "url?limit=10000&mimetype=application/font-woff" },
-            { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&mimetype=application/octet-stream" },
-            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,                      loader: "url?limit=10000" },
-            { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,    loader: "url?limit=10000&mimetype=image/svg+xml" }
+            {
+                test: /\.s[ca]ss(\?.*$|$)/,
+                loader: ExtractTextPlugin.extract("style", "css!autoprefixer!sass")
+            },
+            {
+                test: /\.jsx?/,
+                loader: "babel", exclude: /(node_modules|bower_components)/
+            },
+            {
+                test: /\.less$/,
+                loader: "style!css!autoprefixer!less!" },
+            {
+                test: /\.(otf|eot|svg|ttf|woff|woff2)(\?.+)?$/,
+                loader: 'url-loader?limit=8192'
+            }
         ]
     },
     resolve: {
@@ -35,7 +44,8 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
-        })
+        }),
+        new ExtractTextPlugin("bundle.css")
     ]
 };
 
