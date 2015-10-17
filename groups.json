@@ -5,28 +5,28 @@
             "link": "https://www.facebook.com/groups/tr.developers/",
             "languages": ["php"],
             "memberCount": 10100,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, cupiditate."
+            "description": "'PHP-TR' PHP yazılımcıları topluluğudur."
         },
         {
             "name": "Python Türkiye",
             "link": "https://www.facebook.com/groups/PythonTurkiye/",
             "languages": ["python"],
             "memberCount": 6000,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio sit, et inventore non consequatur!"
+            "description": "Python hakkında ilgili insaların toplandığı bir grup."
         },
         {
             "name": "Özgür Yazılım Haberleri",
             "link": "https://www.facebook.com/ozguryazilimhaberleri",
             "languages": ["linux","opensource"],
             "memberCount": 2000,
-            "description": "Lorem ipsum dolor sit amet."
+            "description": "Özgür Yazılım Dünyasındaki gelişmeleri takip edebileceğiniz bir facebook sayfasıdır. Open source dünyasının yeniliklerini birlikte paylaşalım."
         },
         {
             "name": "FRONTEND-TR",
             "link": "https://www.facebook.com/groups/frontend.tr/",
             "languages": ["html", "css", "js"],
             "memberCount": 2400,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iste facilis doloremque fugit nesciunt possimus, quas voluptate maiores, impedit facere laboriosam iusto animi amet dolorem."
+            "description": "FRONTEND-TR grubu, Frontend ile ilgili konularda paylaşımda bulunma ve hızlı çözüm üretmek için kurulmuştur. PHP-TR'nin kardeş grubudur."
         },
         {
             "name": "Java-TR.org",
@@ -40,7 +40,7 @@
             "link": "https://www.facebook.com/groups/pythontr.org/",
             "languages": ["python"],
             "memberCount": 400,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim alias dolores consectetur eos? Mollitia fugiat sunt error cupiditate odio incidunt!"
+            "description": "Python hakkındaki türkçe kaynak eksikliğini gidermek ve python tecrübelerimizi paylaşmak amaçlı grubumuza hoşgeldiniz."
         }
     ]
 }
