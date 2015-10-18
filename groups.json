@@ -41,6 +41,13 @@
             "languages": ["python"],
             "memberCount": 400,
             "description": "Python hakkındaki türkçe kaynak eksikliğini gidermek ve python tecrübelerimizi paylaşmak amaçlı grubumuza hoşgeldiniz."
+        },
+        {
+            "name": "Swift Türkiye",
+            "link": "https://www.facebook.com/groups/swift.tr/",
+            "languages": ["swift"],
+            "memberCount": 100,
+            "description": "Swift Türkiye grubu, ülkemizdeki Swift kullanan IOS geliştiricileri için oluşturulmuştur."
         }
     ]
 }
