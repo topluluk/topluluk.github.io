@@ -45,7 +45,7 @@
         {
             "name": "Swift Türkiye",
             "link": "https://www.facebook.com/groups/swift.tr/",
-            "languages": ["swift"],
+            "languages": ["swift", "ios"],
             "memberCount": 100,
             "description": "Swift Türkiye grubu, ülkemizdeki Swift kullanan IOS geliştiricileri için oluşturulmuştur."
         }
