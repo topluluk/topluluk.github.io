@@ -48,6 +48,20 @@
             "languages": ["swift", "ios"],
             "memberCount": 100,
             "description": "Swift Türkiye grubu, ülkemizdeki Swift kullanan IOS geliştiricileri için oluşturulmuştur."
+        },
+        {
+            "name": "ZN Framework",
+            "link": "https://www.facebook.com/groups/znframework/",
+            "languages": ["php"],
+            "memberCount": 353,
+            "description": "ZN Framework, PHP Tabanlı Geliştirilmiş Profesyonel Bazdaki İlk Yerli Kod Çatısıdır."
+        },
+        {
+            "name": "Yazılımcılar Derneği",
+            "link": "https://www.facebook.com/groups/yazilimcilardernegi/",
+            "languages": ["php","asp","c#","c++",".net"],
+            "memberCount": 1593,
+            "description": "Ücretsiz yazılımcılar arası paylaşım soru-cevap tarzında açık bir gruptur."
         }
     ]
 }
