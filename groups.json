@@ -62,6 +62,20 @@
             "languages": ["php","asp","c#","c++",".net"],
             "memberCount": 1593,
             "description": "Ücretsiz yazılımcılar arası paylaşım soru-cevap tarzında açık bir gruptur."
+        },
+        {
+            "name": "Swift-TR",
+            "link": "https://www.facebook.com/groups/swturkiye/",
+            "languages": ["swift", "ios"],
+            "memberCount": 250,
+            "description": "Swift-TR grubu, Türkçe konuşan Swift kullanıcıları için oluşturulmuş ilk kurulan ve en geniş Facebook topluluğudur."
+        },
+        {
+            "name": "açıkkaynak",
+            "link": "https://github.com/acikkaynak/acikkaynak",
+            "languages": [],
+            "memberCount": 11,
+            "description": "GitHub'ın kendi doğal araçları kullanılarak Türkçe konuşan kullanıcıların açık kaynaklı projelere katkı sağlamasına yardımcı olmak amacıyla oluşturulmuştur."
         }
     ]
 }
