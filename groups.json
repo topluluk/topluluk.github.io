@@ -4,14 +4,14 @@
             "name": "PHP-TR",
             "link": "https://www.facebook.com/groups/tr.developers/",
             "languages": ["php"],
-            "memberCount": 10100,
+            "memberCount": 12700,
             "description": "'PHP-TR' PHP yazılımcıları topluluğudur."
         },
         {
             "name": "Python Türkiye",
             "link": "https://www.facebook.com/groups/PythonTurkiye/",
             "languages": ["python"],
-            "memberCount": 6000,
+            "memberCount": 10000,
             "description": "Python hakkında ilgili insaların toplandığı bir grup."
         },
         {
@@ -25,14 +25,14 @@
             "name": "FRONTEND-TR",
             "link": "https://www.facebook.com/groups/frontend.tr/",
             "languages": ["html", "css", "js"],
-            "memberCount": 2400,
+            "memberCount": 5400,
             "description": "FRONTEND-TR grubu, Frontend ile ilgili konularda paylaşımda bulunma ve hızlı çözüm üretmek için kurulmuştur. PHP-TR'nin kardeş grubudur."
         },
         {
             "name": "Java-TR.org",
             "link": "https://www.facebook.com/groups/javatr/",
             "languages": ["java"],
-            "memberCount": 600,
+            "memberCount": 1700,
             "description": "Bir dil düşünün ki ; Dünya üzerinde 9 milyondan fazla geliştiricisi olan, 3 milyardan fazla mobil uygulama için tercih edilmiş, 5 milyardan fazla Akıllı kartın aklı olan, Yazılım sektöründe en çok tercih edilen bir dili düşünün. Sizide bu dilin geliştircisi olmak ve bizimle bu gücü ve bilgiyi paylaşmak için Java-TR.org grubumuza davet ediyoruz."
         },
         {
@@ -46,7 +46,7 @@
             "name": "Swift Türkiye",
             "link": "https://www.facebook.com/groups/swift.tr/",
             "languages": ["swift", "ios"],
-            "memberCount": 100,
+            "memberCount": 640,
             "description": "Swift Türkiye grubu, ülkemizdeki Swift kullanan IOS geliştiricileri için oluşturulmuştur."
         },
         {
