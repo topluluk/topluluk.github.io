@@ -76,7 +76,14 @@
             "languages": [],
             "memberCount": 11,
             "description": "GitHub'ın kendi doğal araçları kullanılarak Türkçe konuşan kullanıcıların açık kaynaklı projelere katkı sağlamasına yardımcı olmak amacıyla oluşturulmuştur."
-        }
+        },
+        {
+            "name": "Golang Türkiye",
+            "link": "https://www.facebook.com/groups/GolangTurkiye/",
+            "languages": ["go"],
+            "memberCount": 176,
+            "description": "Google'ın geliştirdiği Go Programlama Dili Golang Türkiye Topluluğudur"
+        },
     ]
 }
 
